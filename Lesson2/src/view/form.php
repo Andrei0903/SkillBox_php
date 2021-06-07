@@ -9,7 +9,7 @@ $error = false;
 
 if (! empty($_POST)){
 
-    if (! empty($_POST['name']) || strlen($_POST['id']) > 0){
+    if (! empty($_POST['name']) || strlen($_POST['id']) >= 0){
         if (empty($_POST['name'])){
             $error = true;
         } else{

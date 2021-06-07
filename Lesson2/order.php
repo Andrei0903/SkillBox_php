@@ -1,5 +1,5 @@
 <?php
 
-function MakeOrder($product, $name, $login, $pass){
+function MakeOrder($product, $name){
     return true;
 }
