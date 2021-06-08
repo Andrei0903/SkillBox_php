@@ -1,5 +1,5 @@
 <?php
-$login = [
+$UserLog = [
     [
         'id' => 0,
         'login' => '123'

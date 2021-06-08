@@ -2,7 +2,22 @@
     margin: 0;
     padding: 0;
 }
+.manu{
+    border: 3px solid #000;
+    width: 700px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 20px 50px;
+}
 
+.manu a{
+    color: #000;
+}
+
+.manu a:hover{
+    border-bottom: 1px solid #000;
+}
 .menu{
     display: block;
     background: #3949ab;
