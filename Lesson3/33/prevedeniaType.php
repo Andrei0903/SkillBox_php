@@ -1,5 +1,5 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/base/header.php" ?>
-
+<pre>
 <?php 
 
 /** Что будет если 
@@ -54,6 +54,24 @@ $x = ["2" => 3, "key1" => 4, 5]; // key = 2, key1, 3
 
 var_dump($z + $x);
 
+/**
+ * $a + $b;
+ * $a == $b;
+ * $a === $b;
+ * $a != $b;
+ * $a !== $b;
+ */
 
+ var_dump((array)10); // [10]
+ var_dump((array)false); // [false];
+ var_dump((array)1, 2); // [1, 2]
+ 
+ // == 
 
+/**
+ * false == []
+ * null == []
+ * [] == [] 
+ */
 ?>
+</pre>

@@ -25,9 +25,18 @@
             <li><a href="/33/scekl.php">Цыклы</a></li>
             <li><a href="/33/prevedeniaType.php">Приведение типов</a></li>
         </ul>
+    <br> <hr> <br>
+        
+    </div>
+    <div class="contant">
+        <ul>
+                <h3>3.4. Функции для ежедневной работы, подключение файлов, приер</h3> <br>
+            <li><a href="/34/lesson.php">Работа с массивами</a></li>
+            <li><a href="/34/scekl.php">123</a></li>
+        </ul>
         
     </div>
 
+
 </div>
 
-   
