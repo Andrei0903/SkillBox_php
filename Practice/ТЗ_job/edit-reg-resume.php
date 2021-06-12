@@ -1,4 +1,5 @@
-<?php include_once $_SERVER['DOCUMENT_ROOT'] . "/base/header.php"?>
+<?php require (__DIR__ . '/base/header.php')?>
+
     <div class="content p-rel">
         <div class="container">
             <div class="row">
@@ -438,4 +439,4 @@
             </div>
         </div>
     </div>
-<?php include_once $_SERVER ['DOCUMENT_ROOT'] . "/base/footer.php";?>
+<?php include (__DIR__ . "/base/footer.php");?>

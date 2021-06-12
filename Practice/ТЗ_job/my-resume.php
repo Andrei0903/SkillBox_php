@@ -1,10 +1,10 @@
-<?php include_once $_SERVER['DOCUMENT_ROOT'] . "/base/header.php"; ?>
+<?php require (__DIR__ . '/base/header.php');?>
 
     <div class="content">
         <div class="container">
             <div class="col-lg-9">
                 <div class="main-title mb32 mt50 d-flex justify-content-between align-items-center">Мои резюме
-                    <a href="/edit-reg-resume.php" class="link-orange-btn orange-btn my-vacancies-add-btn">Добавить резюме</a><a
+                    <a href="edit-reg-resume.php" class="link-orange-btn orange-btn my-vacancies-add-btn">Добавить резюме</a><a
                             class="my-vacancies-mobile-add-btn link-orange-btn orange-btn plus-btn" href="#">+</a></div>
                 <div class="tabs mb64">
                     <div class="tabs__content active">
@@ -362,4 +362,4 @@
             </div>
         </div>
     </div>
-<?php include_once $_SERVER ['DOCUMENT_ROOT'] . "/base/footer.php";?>
+<?php include (__DIR__ . "/base/footer.php"); ?>
